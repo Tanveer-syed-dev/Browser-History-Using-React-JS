@@ -1,0 +1,98 @@
+.browser-history-details-list {
+  display: flex;
+  flex-direction: column;
+  padding: 5px;
+  /* border: 1px solid green; */
+  width: 100%;
+  margin: 5px;
+  font-family: 'Roboto';
+}
+
+@media screen and (min-width: 768px) {
+  .browser-history-details-list {
+    flex-direction: row;
+    align-items: center;
+  }
+}
+
+.browse-history-container {
+  /* border: 1px solid green; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  width: 90%;
+}
+@media screen and (min-width: 768px) {
+  .browse-history-container {
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 40px;
+  }
+}
+
+.timeAccessed {
+  font-size: 14px;
+  padding-left: 8px;
+}
+@media screen and (min-width: 768px) {
+  .timeAccessed {
+    font-size: 12.5px;
+  }
+}
+.logoUrl-img {
+  width: 25px;
+  height: 25px;
+  /* border: 1px solid rgb(173, 106, 106); */
+  margin: 5px;
+}
+@media screen and (min-width: 768px) {
+  .logoUrl-img {
+    width: 20px;
+    height: 20px;
+  }
+}
+
+.domainUrl {
+  font-size: 15px;
+}
+.application-container {
+  /* border: 1px solid red; */
+  display: flex;
+  flex-direction: column;
+  padding-left: 5px;
+}
+@media screen and (min-width: 768px) {
+  .application-container {
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+}
+.application-name {
+  font-size: 18px;
+  color: #475569;
+  font-weight: 900;
+}
+.domainUrl {
+  color: #475569;
+}
+@media screen and (min-width: 768px) {
+  .application-name {
+    font-size: 15px;
+  }
+  .domainUrl {
+    padding-left: 10px;
+  }
+}
+.display-flex {
+  display: flex;
+  justify-content: center;
+}
+button {
+  background-color: transparent;
+  padding: 5px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
